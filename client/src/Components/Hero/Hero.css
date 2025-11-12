@@ -1,0 +1,125 @@
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(242, 244, 247);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero-text{
+    text-align: center;
+    max-width: 100%;
+    height: 380px;
+    
+}
+
+.hero-text h1{
+    font-size: 50px;
+    font-weight: 700;
+    font-style: bold;
+    line-height: 120%;
+}
+.hero-text p{
+    width: 612px;
+    height: 53.50;
+  margin-top: 30px;
+  margin-left: 300px;
+  line-height: 150%;
+   font-weight: 400;
+   font-size: 18px;
+   color: rgb(137, 136, 136);
+}
+ul li{
+    display: inline-block;
+    list-style:none;
+    margin: 15px 20px ;
+    font-size: 18px;
+}
+.section{
+ display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
+  border-radius: 20px;
+  overflow: hidden;
+   margin-top: 20px;
+}
+
+.hero-left{
+  background-color: #ff4b5c;
+  color: white;
+  padding: 4rem 3rem;
+  width:774px ;
+  height:500px ;
+   border-radius: 28px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   text-align: left;
+}
+.hero-left h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+   
+}
+
+.hero-left p{
+    font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  margin-left: 0px;
+  color: #f9f9f9;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 0.9rem 1.8rem;
+  border: none;
+  border-radius: 30px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.primary {
+  background: white;
+  color: black;
+}
+
+.secondary {
+  background: rgba(255, 255, 255, 0.3);
+  color: white;
+}
+
+.primary:hover {
+  background: black;
+  color: white;
+}
+
+.secondary:hover {
+  background: white;
+  color: #ff4b5c;
+}
+
+.hero-right img{
+    width:410px ;
+    height: 500px;
+    border-radius: 28px;
+}
+.company{
+    text-align: center;
+   margin-top: -100px;
+}
+.logos{
+    display: flex;
+    justify-content:space-between;
+    
+}
+.logos img{
+    height: 95px;
+    width: 100px;
+}

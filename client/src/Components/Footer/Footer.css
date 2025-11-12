@@ -1,0 +1,110 @@
+footer
+{
+    margin-top: 55px;
+}
+.contain{
+    display: flex;
+ flex-direction: column;
+gap: 15px;
+width: 420px;
+margin: -10px;
+}
+.contain p{
+    font-size: 14px;
+    margin-top: -30px;
+}
+.contain .p1{
+    font-size: 10.75px;
+    margin-top: 1px;
+}
+.contain .flogo
+{
+    width: 170px;
+    height: 200px;
+}
+
+.contain h2,p{
+    color: #202020;
+}
+.contain button{
+  gap: 6.5px;
+  background-color: #FF3E54;
+  color: white;
+  flex-wrap: wrap;
+  padding: 0.9rem 1.8rem;
+  border: 0.81px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 9.75px;
+  padding-bottom: 9.75px;
+  padding-left: 19.5px;
+  padding-right: 19.5px;
+  width: 96px;
+    height: 39px;
+  
+}
+.contain .text{
+    width: 296px;
+    height: 39px;
+    padding: 0.9rem 1.8rem;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 0.81px solid #202020;
+  padding-top: 9.75px;
+  gap: 6.5px;
+}
+
+.foot-panel2
+{
+   
+    color: rgb(16, 15, 15);
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul
+{
+   margin-top: 20px; 
+}
+ul p{
+    font-weight: 600;
+    font-size: 14px;
+    font-style:normal;
+    line-height: 150%;
+ 
+}
+ul a
+{
+ 
+ display: block;
+ font-size: 0.85rem;
+ margin-top: 20px;
+ color: #080808;
+}
+i{
+    height: 21.5px;
+    width:26.5px ;
+    font-size: 15px;
+}
+
+.foot-panel3
+{
+
+    color: white;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+
+}
+.logo
+{
+    background-image:url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+   width: 100px;
+}

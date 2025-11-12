@@ -1,0 +1,92 @@
+.container1
+{
+    text-align: left;
+    margin-left: 11%;
+    margin-top: 100px;
+    
+}
+.container1 h1{
+    font-size: 48px;
+    font-weight: 700;
+    font-style: bold;
+    color: #0E1F51;
+    line-height: 120%;
+    width: 560px;
+    height: 58px;
+}
+.container1 p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 150%;
+    width: 560px;
+    height: 27px;
+}
+.inside
+{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+.inside .left{
+    height: 103px;
+    width: 557px;
+}
+.inside .left h2{
+    font-size: 36px;
+    color: #202020;
+    margin-top: 30px;
+}
+.inside .right{
+    height: 103px;
+    width: 557px;
+}
+.inside .right .rimg{
+    width: 348px;
+    height: 370px;
+}
+.inside1 {
+    
+    display: flex;
+    margin-top: 32%;
+    justify-content: center;
+    gap: 20px;
+}
+.inside1 .left1 .ilogo{
+    width: 585px;
+    height: 395px;
+}
+.inside1 .right1{
+    margin-top: 60px;
+display: flex;
+flex-direction: column;
+gap: 60px;
+}
+.inside1 .right1 h1,p{
+    color: #202020;
+
+}
+.button {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btns{
+    
+  padding: 0.9rem 1.8rem;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.first{
+    background-color: #ff4b5c;
+    color: white;
+    font-size: 16px;
+}
+.second
+{
+    border: 1px solid #ff4b5c;
+    font-size: 16px;
+    color: #000000;
+}

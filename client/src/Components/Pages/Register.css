@@ -1,0 +1,99 @@
+body {
+  background-color: #fff6f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.form-container {
+  background: #fff;
+  margin-left: 30%;
+  padding: 30px;
+  width: 569px;
+height: 510px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+}
+/* Headings */
+.form-container h2 {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.form-container p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 20px;
+}
+/* Inputs */
+.input-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #f7caca;
+  border-radius: 5px;
+  background-color: #fff0f1;
+  outline: none;
+}
+/* Row for first/last name */
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+/* Gender & language */
+.gender-group,
+.language-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.gender-group label,
+.language-group label {
+  background: #fff0f1;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  accent-color: #ff4a5b;
+}
+/* Terms */
+.terms {
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.terms a {
+  color: #ff4a5b;
+  text-decoration: none;
+}
+
+/* Button */
+.sbutton {
+  width: 100%;
+  padding: 12px;
+  background-color: #ff4a5b;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.sbutton:hover {
+  background-color: #e13f50;
+}
